@@ -26,6 +26,12 @@ a {
   @apply bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300;
 }
 
+input,
+select,
+textarea {
+  @apply rounded border p-2 outline-none ring-violet-300 focus:ring;
+}
+
 /*
 ! tailwindcss v3.1.4 | MIT License | https://tailwindcss.com
 */
