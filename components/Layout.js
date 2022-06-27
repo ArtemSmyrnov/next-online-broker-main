@@ -27,7 +27,7 @@ export default function Layout({ title, children }) {
         <header>
           <nav className="flex h-12 items-center px-4 justify-between shadow-md">
             <Link href="/">
-              <a className="text-lg font-bold">online-broker</a>
+              <a className="text-lg font-bold">Online-broker</a>
             </Link>
             <div>
               <Link href="/cart">
@@ -54,7 +54,7 @@ export default function Layout({ title, children }) {
         </header>
         <main className="container m-auto mt-4 px-4">{children}</main>
         <footer className="flex justify-center items-center h-10 shadow-inner">
-          w61934
+          Artem Smyrnov w61934
         </footer>
       </div>
     </>

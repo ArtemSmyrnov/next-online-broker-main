@@ -20,9 +20,9 @@ export default function ProductScreen() {
   return (
     <Layout title={product.name}>
       <div className="py-2">
-        <Link href="/">back</Link>
+        <Link href="/">Go back</Link>
       </div>
-      <div className="grid md:grid-cols-4 md:gap-3">
+      <div className="grid md:grid-cols-4 md:gap-20">
         <div className="md:col-span-2">
           <Image
             src={product.image}
@@ -35,10 +35,13 @@ export default function ProductScreen() {
         <div>
           <ul>
             <li>
-              <h1 className="text-lg">{product.name}</h1>
+              <h1 className="text-2xl text-center">{product.name}</h1>
             </li>
+            <br></br>
             <li>Category: {product.category}</li>
-            <li>Description: {product.description}</li>
+            <br></br>
+            Description:
+            <li className="italic">{product.description}</li>
           </ul>
         </div>
         <div>
